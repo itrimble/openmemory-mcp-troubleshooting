@@ -88,6 +88,38 @@ Add the OpenMemory configuration:
 }
 ```
 
+## Important: Memory Formatting Guidelines
+
+When using OpenMemory to store memories, follow these guidelines for best results:
+
+### ✅ DO:
+- Use plain text without special formatting
+- Keep memories concise and in natural sentence form
+- Split complex information into logical chunks (summary + details)
+- Write in continuous prose rather than lists
+- Keep each memory focused on a single topic or concept
+
+### ❌ DON'T:
+- Use markdown formatting (bold, italics, headers)
+- Create numbered or bulleted lists
+- Add line breaks or complex structure
+- Make extremely long entries
+- Use special characters or formatting symbols
+
+### Example - Good Memory Format:
+```
+Ian has 18 MCP servers installed in Claude Desktop for various automation and development tasks. The servers include applescript_execute for Mac system control, context7-mcp for documentation lookup, desktop-commander for file operations, and other tools for browser automation, task management, and screen capture.
+```
+
+### Example - Poor Memory Format:
+```
+Ian's MCP Servers:
+1. **applescript_execute** - Mac system control
+2. **context7-mcp** - Documentation lookup
+3. **desktop-commander** - File operations
+... (long formatted list)
+```
+
 ## Troubleshooting Steps
 
 ### Step 1: Check Docker Logs
