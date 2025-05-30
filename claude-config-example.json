@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "openmemory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sse",
+        "http://localhost:8765/mcp/claude/sse/ian"
+      ]
+    }
+  }
+}
